@@ -27,7 +27,7 @@ This is why the [grease](https://github.com/goki/grease) configuration and app c
 
 Generated code is faster and cleaner and can be targeted to just what is needed.  `reflect` should be reserved for things like `giv.StructView` and other such views which need to be truly generic and operate on any kind of type from any package, etc.
 
-# Use interfaces instead of `reflect`
+# Interfaces instead of `reflect`
 
 Interfaces go hand-in-hand with generated code: the boilerplate code that satisfies the interfaces is auto-generated as needed.
 
