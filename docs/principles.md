@@ -1,6 +1,6 @@
 # Principles
 
-This page contains a list of fundamental principles that GoKi is built on. There are occasional exceptions to these principles, but they should be followed almost all of the time, and there must be a very clear reason for not following them.
+This page contains a list of fundamental principles that GoKi is built on. There are occasional exceptions to these principles, but they should be followed almost all of the time, and there must be a very clear reason for not following them. This page is based on #1, and modifications, additions, and deletions can be proposed there.
 
 # Code is always the best solution
 
