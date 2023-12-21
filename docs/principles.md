@@ -1,6 +1,6 @@
 # Principles
 
-This page contains a list of fundamental principles that GoKi is built on. There are occasional exceptions to these principles, but they should be followed almost all of the time, and there must be a very clear reason for not following them. This page is based on [discussion #1](https://github.com/goki/general/discussions/1), and modifications, additions, and deletions can be proposed there.
+This page contains a list of fundamental principles that Goki is built on. There are occasional exceptions to these principles, but they should be followed almost all of the time, and there must be a very clear reason for not following them. This page is based on [discussion #1](https://github.com/goki/general/discussions/1), and modifications, additions, and deletions can be proposed there.
 
 # Code is always the best solution
 
@@ -8,7 +8,7 @@ A common approach to programming, especially for the web, is to reduce the amoun
 
 The eventual result of this trend is that people end up stuffing entire programming languages into these supposedly simple formats to cover their requirements (for example, SCSS, JSX, and templates). The resulting languages are neither simple, clear, nor extensible, creating massive amounts of unreadable and inefficient code. This means that everyone has to learn these languages and their magic syntaxes, struggle to read their complicated code, reach constant limits in functionality, and suffer runtime errors and bad performance due to the typically duck-typed, interpreted nature of these languages. Unless there are very limited uses for something, avoiding real code will always cause many problems and no benefits. 
 
-The solution to this is simple—whenever possible, everything should be written in real code, preferably in one language. Therefore, GoKi takes this approach: everything, from trees to widgets to styling to enums, is written in real, pure Go code. The only non-Go functional files in a GoKi package or app should be TOML files, which are only used for very simple configuration options to commands, and not for any actual code.
+The solution to this is simple—whenever possible, everything should be written in real code, preferably in one language. Therefore, Goki takes this approach: everything, from trees to widgets to styling to enums, is written in real, pure Go code. The only non-Go functional files in a Goki package or app should be TOML files, which are only used for very simple configuration options to commands, and not for any actual code.
 
 # Struct fields are better than maps for things like configuration and styling
 
